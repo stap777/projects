@@ -46,11 +46,11 @@ public class main {
 
         ArrayList<String> menu = new ArrayList<>();
 
-        System.err.println("MENU");
-            menu.add("1) Show Tasks");
-            menu.add("2) Add Tasks");
-            menu.add("3) Remove Tasks");
-            menu.add("4) Exit");
+        System.out.println("MENU");
+        menu.add("1) Show Tasks");
+        menu.add("2) Add Tasks");
+        menu.add("3) Remove Tasks");
+        menu.add("4) Exit");
 
         while (true) {
             printlist(menu);
